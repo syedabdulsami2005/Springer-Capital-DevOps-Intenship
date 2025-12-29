@@ -15,9 +15,4 @@ This repository documents the methodology and tooling used to perform a comprehe
 * **Bash/Python:** For automating scan execution.
 * **[Insert Other Tools]:** (e.g., Wireshark, Masscan, etc.)
 
-## 📝 Methodology (DEV-353)
 
-### 1. Host Discovery
-We utilized ICMP echo requests to identify active hosts within the IP range.
-```bash
-nmap -sn 192.168.1.0/24
