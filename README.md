@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 DevOps & Cloud Security Internship Portfolio
+# 🚀 DevOps Internship Portfolio
 ### By Syed Abdul Sami
 
 ![DevOps](https://img.shields.io/badge/Focus-DevOps-blue?style=for-the-badge&logo=azuredevops)
