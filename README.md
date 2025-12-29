@@ -20,9 +20,12 @@
 ## 📂 Task Index
 | ID | Task Name | Tech Stack | Key Deliverables | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| **DEV-352** | **Infrastructure Port Scan & Mapping** | `Nmap` `Bash` `TCP/IP` | [View Report](#-task-highlight-network-security-audit-dev-352) | ✅ Done |
-| **DEV-358** | *Upcoming Task...* | -- | -- | ⏳ Pending |
-| **DEV-359** | *Upcoming Task...* | -- | -- | ⏳ Pending |
+| **DEV-352** | **Infrastructure Port Scan & Mapping** | `Nmap` `TCP/IP` | [Project Charter](#-task-highlight-network-security-audit-dev-352) | ✅ Done |
+| **DEV-353** | **Methodology Documentation** | `Markdown` `Docs` | [View SOP](/docs/METHODOLOGY.md) | ✅ Done |
+| **DEV-354** | **Service Version Mapping** | `Nmap -sV` | [Service Inventory](/docs/SERVICE_INVENTORY.md) | ✅ Done |
+| **DEV-355** | **Consolidated Security Report** | `Reporting` | [Audit Report](/docs/SECURITY_AUDIT_REPORT.md) | ✅ Done |
+| **DEV-356** | **Review & Validate Scan Accuracy** | `Netcat` `Curl` | Validation Logs | ⏳ Pending |
+| **DEV-357** | **Full IP Range Port Scan** | `Bash` `Automation` | Raw Scan Data | ⏳ Pending |
 
 ---
 
@@ -75,4 +78,19 @@ Based on the scan, the following architecture was deduced:
 
 ---
 
+## 💻 How to Run the Scripts
 
+To replicate the scanning methodology used in this repo:
+
+```bash
+# 1. Clone the repository
+git clone [https://github.com/YOUR_USERNAME/DevOps-Internship-Portfolio.git](https://github.com/YOUR_USERNAME/DevOps-Internship-Portfolio.git)
+
+# 2. Navigate to the task folder
+cd Task-01-Network-Audit
+
+# 3. Make the script executable
+chmod +x scan_script.sh
+
+# 4. Run the scan (Requires Sudo)
+sudo ./scan_script.sh [TARGET_IP]
