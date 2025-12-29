@@ -75,19 +75,4 @@ Based on the scan, the following architecture was deduced:
 
 ---
 
-## 💻 How to Run the Scripts
 
-To replicate the scanning methodology used in this repo:
-
-```bash
-# 1. Clone the repository
-git clone [https://github.com/YOUR_USERNAME/DevOps-Internship-Portfolio.git](https://github.com/YOUR_USERNAME/DevOps-Internship-Portfolio.git)
-
-# 2. Navigate to the task folder
-cd Task-01-Network-Audit
-
-# 3. Make the script executable
-chmod +x scan_script.sh
-
-# 4. Run the scan (Requires Sudo)
-sudo ./scan_script.sh [TARGET_IP]
