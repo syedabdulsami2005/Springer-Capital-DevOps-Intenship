@@ -1,25 +1,23 @@
-# Open Port Scan and Service Mapping
+# Infrastructure Open Port Scan and Service Mapping
 
-## Project Overview
-This project focuses on network security and service discovery. The goal was to identify open ports, map running services, and validate the security posture of the target infrastructure.
+## 📌 Project Overview
+This repository documents the methodology and tooling used to perform a comprehensive network security audit. The objective was to identify open ports, map running services, and validate the security posture of the infrastructure.
 
-**Key Objectives:**
-- Perform port scanning on designated IP ranges.
-- Map services to open ports.
-- Validate scan accuracy and document findings.
+**Jira Epic/Task Ref:** `DEV-352`
+
+## 🎯 Objectives
+- **Discovery:** Identify live hosts and open ports on the target subnet.
+- **Mapping:** Correlate open ports with running services (Apache, Nginx, SSH, etc.).
+- **Validation:** Ensure no unauthorized ports are exposed to the public internet.
 
 ## 🛠 Tools Used
-* **Nmap:** For network discovery and security auditing.
+* **Nmap:** Network discovery and security auditing.
+* **Bash/Python:** For automating scan execution.
+* **[Insert Other Tools]:** (e.g., Wireshark, Masscan, etc.)
 
-## 📋 Methodology (DEV-353)
-1.  **Target Identification:** Defined the scope of IP addresses.
-2.  **Discovery Scan:** Ran initial ping sweeps to identify live hosts.
-3.  **Service Mapping:** Executed detailed scans to detect service versions on open ports.
-4.  **Validation:** Manually verified a sample of results to ensure accuracy (DEV-356).
+## 📝 Methodology (DEV-353)
 
-## 💻 Execution
-To replicate the scan, the following command structure was used:
-
+### 1. Host Discovery
+We utilized ICMP echo requests to identify active hosts within the IP range.
 ```bash
-# Example Nmap command used for service version detection
-nmap -sV -p- -T4 [TARGET_IP] -oN output.txt
+nmap -sn 192.168.1.0/24
