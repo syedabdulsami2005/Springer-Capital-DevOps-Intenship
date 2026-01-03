@@ -90,4 +90,4 @@ The infrastructure follows a clear pattern of a microservices cluster (Consul, U
 
 **Audit Performed By:**
 Syed Abdul Sami
-*DevOps & Security Intern*
+*DevOps Intern*
