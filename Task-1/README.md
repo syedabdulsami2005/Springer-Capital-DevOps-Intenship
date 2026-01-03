@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 DevOps Internship Portfolio
+# 🚀 DevOps Task-1
 ### By Syed Abdul Sami
 
 ![DevOps](https://img.shields.io/badge/Focus-DevOps-blue?style=for-the-badge&logo=azuredevops)
