@@ -6,7 +6,6 @@ A comprehensive port and service discovery scan was executed against the entire 
 
 | Metric | Value |
 | :--- | :--- |
-| **Date Initiated** | Sat Dec 27 14:44:45 2025 |
 | **Total Duration** | 5,749.13 seconds (~1 hour 35 mins) |
 | **Targets Scanned** | 15 Hosts |
 | **Hosts Up** | 15 / 15 (100%) |
