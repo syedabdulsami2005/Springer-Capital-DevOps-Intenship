@@ -19,12 +19,12 @@
 ## 📂 Task Index
 | ID | Task Name | Tech Stack | Key Deliverables | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| **DEV-352** | **Infrastructure Port Scan & Mapping** | `Nmap` `TCP/IP` | [Project Charter](#-task-highlight-network-security-audit-dev-352) | ✅ Done |
-| **DEV-353** | **Methodology Documentation** | `Markdown` `Docs` | [View SOP](/docs/METHODOLOGY.md) | ✅ Done |
-| **DEV-354** | **Service Version Mapping** | `Nmap -sV` | [Service Inventory](/docs/SERVICE_INVENTORY.md) | ✅ Done |
-| **DEV-355** | **Consolidated Security Report** | `Reporting` | [Audit Report](/docs/SECURITY_AUDIT_REPORT.md) | ✅ Done |
-| **DEV-356** | **Review & Validate Scan Accuracy** | `Netcat` `Curl` | [Validation Logs](/docs/VALIDATION_LOG.md) | ✅ Done |
-| **DEV-357** | **Full IP Range Port Scan** | `Bash` `Automation` | [Raw Scan Data](/logs/raw_nmap_scan.txt) | ✅ Done |
+| **DEV-352** | **Infrastructure Port Scan & Mapping** | `Nmap` `TCP/IP` | ✅ Done |
+| **DEV-353** | **Methodology Documentation** | `Markdown` `Docs` | ✅ Done |
+| **DEV-354** | **Service Version Mapping** | `Nmap -sV` | ✅ Done |
+| **DEV-355** | **Consolidated Security Report** | `Reporting` | ✅ Done |
+| **DEV-356** | **Review & Validate Scan Accuracy** | `Netcat` `Curl` | ✅ Done |
+| **DEV-357** | **Full IP Range Port Scan** | `Bash` `Automation` | ✅ Done |
 
 ---
 
