@@ -11,7 +11,6 @@
   <b>A comprehensive documentation of tasks, automation scripts, and infrastructure mapping<br>completed during my DevOps Internship.</b>
 </p>
 
-[View Projects](#-task-index) • [Methodology](#-methodology-showcase) • [Connect](#-connect)
 
 </div>
 
