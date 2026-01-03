@@ -18,7 +18,7 @@
 
 ## 📂 Task Index
 | ID | Task Name | Tech Stack | Status |
-| :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- |
 | **DEV-352** | **Infrastructure Port Scan & Mapping** | `Nmap` `TCP/IP` | ✅ Done |
 | **DEV-353** | **Methodology Documentation** | `Markdown` `Docs` | ✅ Done |
 | **DEV-354** | **Service Version Mapping** | `Nmap -sV` | ✅ Done |
