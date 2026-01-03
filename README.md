@@ -28,11 +28,6 @@
 
 ---
 
-## 🌟 Task Highlight: Network Security Audit (DEV-352)
-
-### 📌 Scenario
-The objective was to perform a "Black Box" discovery of the infrastructure to identify active hosts, map open ports to running services, and detect potential security risks (e.g., exposed databases).
-
 ### 🛠 Tools & Commands
 * **Discovery:** `nmap -sn 192.168.x.x/24` (Ping Sweep)
 * **Service Mapping:** `nmap -sV -p- -T4 [IP] -oN result.txt` (Version Detection)
