@@ -33,4 +33,4 @@ The purpose of this methodology is to ensure **transparency** and **reproducibil
 **Goal:** Identify which IP addresses are "alive" in the target subnet before performing intensive scans.
 * **Command:**
   ```bash
-nmap -sV -p- -T4 -Pn [TARGET_IP]
+  nmap -sV -p- -T4 -Pn [TARGET_IP]
