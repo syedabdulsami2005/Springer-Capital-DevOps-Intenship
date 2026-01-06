@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📘 Standard Operating Procedure: Network Discovery & Mapping
+# 📘 Methodology And Tools Used
 ### Reference: DEV-353
 
 ![Type](https://img.shields.io/badge/Type-Documentation-blue?style=for-the-badge&logo=confluence)
@@ -33,4 +33,4 @@ The purpose of this methodology is to ensure **transparency** and **reproducibil
 **Goal:** Identify which IP addresses are "alive" in the target subnet before performing intensive scans.
 * **Command:**
   ```bash
-  nmap -sn [TARGET_SUBNET]
+nmap -sV -p- -T4 -Pn [TARGET_IP]
