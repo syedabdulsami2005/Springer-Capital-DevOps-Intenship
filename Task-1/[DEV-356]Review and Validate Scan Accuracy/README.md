@@ -34,4 +34,3 @@ We employed a "Trust but Verify" methodology using secondary tools.
 The scan dataset is certified as **100% Accurate**.
 * **Completeness:** No missed ports found during low-speed re-scans.
 * **Accuracy:** All critical vulnerabilities have been manually validated as True Positives.
-* 
